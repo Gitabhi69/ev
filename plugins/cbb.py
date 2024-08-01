@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/CodeXBotz/File-Sharing-Bot'>Click here</a>\n○ Channel : @CodeXBotz\n○ Support Group : @CodeXBotzSupport</b>",
+            text = f"<a href='https://t.me/+_2pULQF1-hQzYzJl'>Evolution Series ⚡️</a> \n\nI am a Telegram Bot for storing posts or files that can be accessed via a special link.\n\n• Creator : @It_was_abhi \n• Language : <code>Python3</code>\n• Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 0.3</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data = "close")
                     ]
                 ]
             )
